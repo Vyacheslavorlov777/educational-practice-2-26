@@ -1,4 +1,4 @@
-const { calculatePartnerDiscount } = require('../business-core-development/discount');
+const { calculatePartnerDiscount } = require('../1) Разработка ядра бизнес-логики (Расчет скидки)/discount');
 
 function getPartnersWithDiscount(db) {
   const rows = db.prepare(`

@@ -1,8 +1,8 @@
 const http = require('node:http');
 const fs = require('node:fs');
 const path = require('node:path');
-const { openDatabase, seedIfEmpty } = require('../database-integration/db');
-const { getPartnersWithDiscount } = require('../database-integration/partnerService');
+const { openDatabase, seedIfEmpty } = require('../2) Интеграция с БД и агрегация данных (SQL + Backend)/db');
+const { getPartnersWithDiscount } = require('../2) Интеграция с БД и агрегация данных (SQL + Backend)/partnerService');
 
 const PORT = process.env.PORT || 3000;
 const PUBLIC_DIR = path.join(__dirname, 'public');
